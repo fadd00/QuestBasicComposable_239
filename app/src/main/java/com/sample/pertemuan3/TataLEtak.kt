@@ -2,6 +2,7 @@ package com.example.pertemuan3
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.R
+//import com.example.pertemuan3.R
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
