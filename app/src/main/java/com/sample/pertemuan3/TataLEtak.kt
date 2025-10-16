@@ -1,7 +1,9 @@
 package com.sample.pertemuan3
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -20,7 +22,7 @@ fun TataLetakColumn(modifier: Modifier) {
 
 @Composable
 fun TataLetakRow(modifier: Modifier) {
-    Row {
+    Row (modifier = modifier.fillMaxWidth()){
         horizontalArrangement = Arrangement.SpaceEvenly {
             Text(text = "Komponen1")
             Text(text = "Komponen2")
